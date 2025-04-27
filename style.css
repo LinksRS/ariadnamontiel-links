@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   min-height: 100vh;
   text-align: center;
 }
@@ -15,15 +16,18 @@ body {
 }
 
 .logo {
-  width: 380px; /* LOGO MÁS GRANDE */
-  max-width: 95%;
-  margin-bottom: 50px; /* MÁS SEPARACIÓN */
+  height: 40vh; /* LOGO OCUPA 40% de la altura de la ventana */
+  max-height: 300px; /* Para que no sea exageradamente grande */
+  width: auto;
+  margin-bottom: 40px;
 }
 
 .links {
   display: flex;
   flex-direction: column;
-  gap: 12px; /* Botones más pegados */
+  gap: 12px;
+  width: 100%;
+  max-width: 320px;
 }
 
 .links a {
@@ -34,9 +38,9 @@ body {
   background-color: white;
   color: #611232;
   text-decoration: none;
-  font-size: 16px; /* TEXTO UN POCO MÁS PEQUEÑO */
+  font-size: 18px;
   font-weight: bold;
-  padding: 12px 20px;
+  padding: 12px 24px;
   border-radius: 14px;
   transition: background 0.3s ease;
 }

@@ -5,42 +5,45 @@ body {
   font-family: 'Arial', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; /* Empezamos arriba */
   align-items: center;
   min-height: 100vh;
   text-align: center;
+  box-sizing: border-box; /* Agregado para control total */
 }
 
 .container {
   padding: 20px;
+  width: 100%;
+  max-width: 480px; /* Controlamos el ancho máximo */
 }
 
 .logo {
-  width: 300px; /* Ajuste: no tan grande */
-  max-width: 80%;
-  margin-bottom: 40px;
+  width: 280px;
+  max-width: 90%;
+  margin: 40px auto 30px auto; /* Centrado */
 }
 
 .links {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; /* Menor separación entre botones */
+  gap: 10px;
   width: 100%;
-  max-width: 260px; /* Botones aún más angostos */
 }
 
 .links a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 90%;
+  max-width: 260px;
   background-color: white;
   color: #611232;
   text-decoration: none;
-  font-size: 15px; /* Texto aún más ligero */
+  font-size: 15px;
   font-weight: bold;
-  padding: 8px 16px; /* Botones más bajos */
+  padding: 8px 16px;
   border-radius: 10px;
   transition: background 0.3s ease;
 }
@@ -50,5 +53,5 @@ body {
 }
 
 .links i {
-  font-size: 20px; /* Icono ligeramente más pequeño también */
+  font-size: 20px;
 }

@@ -24,10 +24,10 @@ body {
 .links {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra los enlaces */
-  gap: 15px;
+  align-items: center;
+  gap: 12px;
   width: 100%;
-  max-width: 320px;
+  max-width: 280px; /* Botones más angostos */
 }
 
 .links a {
@@ -38,10 +38,10 @@ body {
   background-color: white;
   color: #611232;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px; /* Texto un poquito más pequeño */
   font-weight: bold;
-  padding: 14px 24px;
-  border-radius: 12px;
+  padding: 10px 20px; /* Menos alto y más compacto */
+  border-radius: 10px;
   transition: background 0.3s ease;
 }
 

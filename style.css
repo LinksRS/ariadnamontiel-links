@@ -25,9 +25,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 10px; /* Menor separación entre botones */
   width: 100%;
-  max-width: 280px; /* Botones más angostos */
+  max-width: 260px; /* Botones aún más angostos */
 }
 
 .links a {
@@ -38,9 +38,9 @@ body {
   background-color: white;
   color: #611232;
   text-decoration: none;
-  font-size: 16px; /* Texto un poquito más pequeño */
+  font-size: 15px; /* Texto aún más ligero */
   font-weight: bold;
-  padding: 10px 20px; /* Menos alto y más compacto */
+  padding: 8px 16px; /* Botones más bajos */
   border-radius: 10px;
   transition: background 0.3s ease;
 }
@@ -50,5 +50,5 @@ body {
 }
 
 .links i {
-  font-size: 22px;
+  font-size: 20px; /* Icono ligeramente más pequeño también */
 }

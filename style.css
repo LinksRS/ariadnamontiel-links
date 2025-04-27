@@ -4,9 +4,9 @@ body {
   background-color: #611232;
   font-family: 'Arial', sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   min-height: 100vh;
   text-align: center;
 }
@@ -16,16 +16,16 @@ body {
 }
 
 .logo {
-  height: 40vh; /* LOGO OCUPA 40% de la altura de la ventana */
-  max-height: 300px; /* Para que no sea exageradamente grande */
-  width: auto;
+  width: 300px; /* Ajuste: no tan grande */
+  max-width: 80%;
   margin-bottom: 40px;
 }
 
 .links {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  align-items: center; /* Centra los enlaces */
+  gap: 15px;
   width: 100%;
   max-width: 320px;
 }
@@ -34,14 +34,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  width: 100%;
   background-color: white;
   color: #611232;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  padding: 12px 24px;
-  border-radius: 14px;
+  padding: 14px 24px;
+  border-radius: 12px;
   transition: background 0.3s ease;
 }
 

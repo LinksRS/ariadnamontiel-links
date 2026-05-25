@@ -66,3 +66,58 @@ body {
     width: 240px;
   }
 }
+.header-morena {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 340px;
+    max-width: 90%;
+    margin-bottom: 15px;
+}
+
+.linea {
+    width: 320px;
+    height: 2px;
+    background: #d4b27a;
+    margin-bottom: 18px;
+}
+
+.header-morena h1 {
+    color: white;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.header-morena p {
+    color: #d4b27a;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 8px;
+    text-align: center;
+}
+
+/* MÓVIL */
+@media (max-width: 768px) {
+
+    .logo {
+        width: 230px;
+    }
+
+    .linea {
+        width: 250px;
+    }
+
+    .header-morena h1 {
+        font-size: 30px;
+    }
+
+    .header-morena p {
+        font-size: 20px;
+    }
+}
